@@ -13,7 +13,8 @@
 ## About me
 
 
-I started my career as a translator. Mostly, I translated various technical documents, including Engineering and IT documentation. I loved my job but one day I realized that I was stuck in one place and did not move forward. So, I decided to switch my career path and try myself in programming. I am confident that my 10-year experience as a translator will help me succeed in the new field I’ve chosen.
+I started my career as a translator. Mostly, I translated various technical documents, including Engineering and IT documentation. 
+I loved my job but one day I realized that I was stuck in one place and did not move forward. So, I decided to switch my career path and try myself in programming. I am confident that my 10-year experience as a translator will help me succeed in the new field I’ve chosen.
 
 
 Adaptability, critical and creative thinking, motivation, and problem-solving are among my soft skills. I’m a responsible and non-conflict person.
