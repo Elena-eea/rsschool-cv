@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth; 
+  }
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Raleway', sans-serif;
+    background-color: #FAEBD7;
+    color: #474745;
+  }
+
+  h2{
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 50px;
+    padding-bottom: 30px;
+  }
+
+  p, li{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+  }
+
+  .container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
+  /*Navigation*/
+
+.navigation-list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
+.navigation-item{
+    font-size: 20px;
+    font-weight: 700;
+}
+.navigation-link {
+    padding: 0 20px;
+    line-height: 50px;
+    color: #474745;
+    transition: .3s;
+}
+
+.navigation-link:hover {
+    color: #000000;
+    font-size: 24px;
+}
+
+/*Name and photo*/
+
+.heading{
+    padding-bottom: 60px;
+}
+
+.heading__container{
+    display: flex;
+    gap: 200px;
+}
+
+.photo{
+    height: 600px;
+    width: 600px;
+    border: 1px solid #FAEBD7;
+    border-radius: 100%;
+    background-image: url("../assets/img/me1_2.jpg");
+}
+
+.name_position {
+    padding-top: 280px;
+}
+.name_position h1{
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 1.5;
+    letter-spacing: 3px;
+}
+
+.name_position h3{
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 1.4;
+}
+
+/*Grid*/
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, auto);
+}
+
+.contacts{
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+.aboutme {
+    grid-column: 2 / 2;
+    grid-row: 1 / 2;
+}
+
+.skills{
+    grid-column: 1 / 2;
+    grid-row: 2 / 4;
+}
+
+.experience{
+    grid-column: 2 / 2;
+    grid-row: 2 / 3;
+}
+
+.codeexample{
+    grid-column: 2 / 2;
+    grid-row: 3 / 4;
+}
+
+.education{
+    grid-column: 1 / 2;
+    grid-row: 5 / 5;
+}
+
+.languages{
+    grid-column: 2 / 2;
+    grid-row: 5 / 5;
+}
+
+/*Contacts*/
+
+.contacts{
+    padding-bottom: 50px;
+}
+
+.contacts__container img {
+    height: 28px;
+    width: 28px;
+}
+
+.contacts__container{
+    display: flex;
+    gap: 30px;
+}
+
+.contacts-container__item{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contacts-container__item a{
+    color: #474745;
+    transition: .3s;
+}
+
+.contacts-container__item a:hover {
+    color: #000000;
+}
+
+.contacts-container__item p{
+    line-height: 1.6;
+}
+
+/*About me*/
+
+.aboutme{
+    padding-bottom: 50px;
+}
+
+.aboutme__container p{ 
+    padding-bottom: 10px;
+
+}
+
+/*Skills*/
+
+.skills{
+    padding-bottom: 50px;
+}
+.skills__container ul {
+    margin: 0 0 10px 25px;
+  }
+
+.skills__container li{
+    padding-bottom: 15px;
+    padding-left: 10px;
+}
+
+
+/*Experience*/
+
+.experience{
+    padding-bottom: 40px;
+}
+
+.experience__container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+    
+}
+
+.experience__container a{
+    color: #474745;
+    transition: .3s;
+}
+
+.experience__container a:hover {
+    color: #000000;
+    font-size: 24px;
+}
+
+
+/*Code Example*/
+
+.codeexample{
+    padding-bottom: 50px;
+}
+
+/*Education and Courses*/
+
+.education{
+    padding-bottom: 50px;
+}
+
+.education__container ul {
+    margin: 0 0 10px 25px;
+  }
+
+.education__container li{
+    padding-bottom: 15px;
+    padding-left: 10px;
+}
+
+.education__container li>p:first-of-type{
+    font-weight: 700;
+}
+
+.education__container span{
+    font-style: italic;
+}
+
+
+/*Languages*/
+
+.languages__container ul {
+    margin: 0 0 10px 25px;
+  }
+
+.languages__container li{
+    padding-bottom: 15px;
+    padding-left: 10px;
+}
+
+/*Footer*/
+
+.footer__container{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #474745;
+}
+
+.footer__container img {
+    height: 90px;
+    width: 90px;
+}
+
+.footer__mygithub{
+    display: flex;
+}
+
+.footer__container a {
+    padding: 0 20px;
+    line-height: 50px;
+    color: #474745;
+    font-weight: 700;
+    transition: .3s;
+    align-self: center;
+}
+
+.footer__container a:hover {
+color: #000000;
+font-size: 24px;
+}
+
+.footer__container p{
+    align-self: center;
+}
